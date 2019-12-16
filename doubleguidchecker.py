@@ -59,7 +59,7 @@ class DoubleguidcheckerPlugin(b3.plugin.Plugin):
                 self.debug('Client GUID: %s is already connected.' %
                            event.client.guid)
                 client.kick(
-                    "This GUID is already connected Contact server admins on ^3discord.gg/NJx9Khb^7")
+                    "This GUID is already connected Contact server admins on discord link")
             else:
                 self.update_guids()
 
